@@ -9,20 +9,44 @@ var desserts = ['Apple Pie', 'Lemon Meringue Pie', 'Black Forest Cake', 'Banana 
 var letsCookBtn = document.querySelector('.btn-1');
 var cookPotImg = document.querySelector('.cookpot-img');
 var radio = document.querySelector('.radio')
+var pHidden = document.querySelector('.content-2 p')
+var h2Hidden = document.querySelector('.content-2 h2')
 
 letsCookBtn.addEventListener('click', hidesPot); 
+
+
+var randomSide = Math.floor(Math.random() * sides.length);
+var randomMains = Math.floor(Math.random() * mains.length)
+var randomDessert = Math.floor(Math.random() * mains.length)
+
+console.log(sides[randomSide]);
+console.log(mains[randomMains])
+console.log(desserts[randomDessert])
 
 function hidesPot() {
   cookPotImg.classList.add('hidden');
   let radio = document.forms[0];
+  
 
   for(var i = 0; i < radio.length; i++) {
-    if(radio[i].checked) {
-      console.log(radio[i].value)
-      
+    if(radio[i].checked === radio[0].checked) {
+      console.log(radio[0].value)
+      pHidden.classList.remove('hidden')
+      h2Hidden.classList.remove('hidden')
+    } else if (radio[i].checked === radio[1].checked) {
+      console.log(radio[1].value)
+      pHidden.classList.remove('hidden')
+      h2Hidden.classList.remove('hidden')
+    } else if (radio[i].checked === radio[2].checked) {
+      console.log(radio[2].value)
+      pHidden.classList.remove('hidden')
+      h2Hidden.classList.remove('hidden')
+    } else if (radio[i].checked === radio[3].checked) {
+      console.log(radio[3].value)
+      pHidden.classList.remove('hidden')
+      h2Hidden.classList.remove('hidden')
     }
   }
-
 }
 
 
