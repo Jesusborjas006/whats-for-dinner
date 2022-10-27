@@ -26,25 +26,22 @@ console.log(desserts[randomDessert])
 function hidesPot() {
   cookPotImg.classList.add('hidden');
   let radio = document.forms[0];
-  
-
+  pHidden.classList.remove('hidden')
+  h2Hidden.classList.remove('hidden')
+  // h2Hidden.innerText = `${sides[randomSide]}`;
   for(var i = 0; i < radio.length; i++) {
-    if(radio[i].checked === radio[0].checked) {
+    if(radio[0].checked) {
       console.log(radio[0].value)
-      pHidden.classList.remove('hidden')
-      h2Hidden.classList.remove('hidden')
-    } else if (radio[i].checked === radio[1].checked) {
+      h2Hidden.innerText = `${sides[randomSide]}`;
+    } else if (radio[1].checked) {
       console.log(radio[1].value)
-      pHidden.classList.remove('hidden')
-      h2Hidden.classList.remove('hidden')
-    } else if (radio[i].checked === radio[2].checked) {
+      h2Hidden.innerText = `${mains[randomMains]}`;
+    } else if (radio[2].checked) {
       console.log(radio[2].value)
-      pHidden.classList.remove('hidden')
-      h2Hidden.classList.remove('hidden')
-    } else if (radio[i].checked === radio[3].checked) {
-      console.log(radio[3].value)
-      pHidden.classList.remove('hidden')
-      h2Hidden.classList.remove('hidden')
+      h2Hidden.innerText = `${desserts[randomDessert]}`;
+    } else {
+      h2Hidden.innerText = 'Nothing Here. This is the entire meal'
+      console.log('Nothing Here. This is the entire meal')
     }
   }
 }
