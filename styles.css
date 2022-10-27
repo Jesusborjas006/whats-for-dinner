@@ -51,9 +51,6 @@ main {
   margin-top: 20px;
 }
 
-
-
-
 /* Content 2 */
 .content-2 {
   background: rgba(225, 225, 225, .9);
@@ -68,6 +65,12 @@ main {
   display: block;
 }
 
+
+
+/* hidden */
+.content-2 .hidden {
+  display: none;
+}
 
 
 
