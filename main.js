@@ -8,13 +8,21 @@ var desserts = ['Apple Pie', 'Lemon Meringue Pie', 'Black Forest Cake', 'Banana 
 
 var letsCookBtn = document.querySelector('.btn-1');
 var cookPotImg = document.querySelector('.cookpot-img');
-
+var radio = document.querySelector('.radio')
 
 letsCookBtn.addEventListener('click', hidesPot); 
 
 function hidesPot() {
   cookPotImg.classList.add('hidden');
-  console.log('clicked');
+  let radio = document.forms[0];
+
+  for(var i = 0; i < radio.length; i++) {
+    if(radio[i].checked) {
+      console.log(radio[i].value)
+      
+    }
+  }
+
 }
 
 

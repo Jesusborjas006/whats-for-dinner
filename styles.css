@@ -51,6 +51,12 @@ main {
   margin-top: 20px;
 }
 
+.btn-1:hover {
+  background: #7ce7e1;
+  cursor: pointer;
+  transition: ease-in .1s;
+}
+
 /* Content 2 */
 .content-2 {
   background: rgba(225, 225, 225, .9);
