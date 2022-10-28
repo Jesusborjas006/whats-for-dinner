@@ -39,8 +39,8 @@ function hidesPot() {
     } else if (radio[2].checked) {
       console.log(radio[2].value)
       h2Hidden.innerText = `${desserts[randomDessert]}`;
-    } else {
-      h2Hidden.innerText = 'Nothing Here. This is the entire meal'
+    } else if(radio[3].checked){
+      h2Hidden.innerText = `${mains[randomMains]} with a side of ${sides[randomSide]} and ${desserts[randomDessert]} for dessert!`
       console.log('Nothing Here. This is the entire meal')
     }
   }
