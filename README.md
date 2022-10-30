@@ -1,51 +1,25 @@
 # What's for Dinner?
 
-## Overview
-
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
-# What's for Dinner? 
-
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+This project displays different foods in the page when selecting an option. You can choose a dinner,dessert,side or even a full meal option. When selecting an option the cookpot img dissapears and a random meal will display in the box.
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+-First go to gitHub and fork this repo. https://github.com/Jesusborjas006/whats-for-dinner
+-Next, go to your terminal and clone the repository down to the directory you would like to work out of. 
+-Type open index.HTML to open the page with the app on it.
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+We had about 5 days of work with about 1-2 hours a day to get the site functional. Currently week 4 into the Turing Program.
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+1 contributor - Jesus Borjas - https://github.com/Jesusborjas006
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+The learning goals were to properly use JavaScript, CSS, and HTML to produce a working application. 
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+The wins that I have are that the application works the way we expected too. The challenge was trying to find a way to get the radio button that was selected to be cliked and get it's value. There was a lot to google in order to find a way to solve this issue. 
