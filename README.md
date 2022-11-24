@@ -10,7 +10,7 @@ This project displays different foods in the page when selecting an option. You 
 -Type open index.HTML to open the page with the app on it.
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+<img width="1438" alt="whats-for-dinner-screenshot" src="https://user-images.githubusercontent.com/111095858/203859183-39e09dc2-ab64-4430-94e5-bfbdf3b7a457.png">
 
 ### Context:
 We had about 5 days of work with about 1-2 hours a day to get the site functional. Currently week 4 into the Turing Program.
@@ -23,3 +23,4 @@ The learning goals were to properly use JavaScript, CSS, and HTML to produce a w
 
 ### Wins + Challenges:
 The wins that I have are that the application works the way we expected too. The challenge was trying to find a way to get the radio button that was selected to be cliked and get it's value. There was a lot to google in order to find a way to solve this issue. 
+
